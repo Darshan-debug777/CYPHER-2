@@ -1,0 +1,11 @@
+# Python environments and caches
+venv/
+.venv/
+__pycache__/
+.pytest_cache/
+
+# Local/private security logs — never commit raw KV data
+private_data/
+
+# Generated runtime output
+output/*.json
